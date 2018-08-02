@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestDemo">
+    <parameter name="name" value="admin"/>
+    <parameter name="passWd" value="admin"/>
+
+    <parameter name="a" value="1"/>
+    <parameter name="b" value="4"/>
+    <test name="Denglu">
+        <classes>
+            <class name="demo01_DengLu"></class>
+        </classes>
+    </test>
+
+    <test name="ChuFa">
+        <classes>
+            <class name="demo02_ChuFa"/>
+        </classes>
+
+    </test>
+</suite>
+<listener class-name="com.first.utils.RetryListener" />

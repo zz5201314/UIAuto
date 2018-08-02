@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Test">
+    <stua name="zhangsan">stu01</stua>
+    <stua name="lisi">stu012</stua>
+    <stua name="wangwu">stu03</stua>
+    <stub name="xiaoli">stu04</stub>
+    <stub name="xiaobai">stu05</stub>
+    <stub name="xiaohei">stu06</stub>
+</class>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZenTaoTest">
+    <test name="SubmitNeed">
+    <parameter name="url" value="http://127.0.0.1:81/zentao/user-login-L3plbnRhby8=.html"/>
+    <parameter name="userName" value="admin"/>
+    <parameter name="passWord" value="weq4556123.."/>
+    <parameter name="productName" value="美女机器人"/>
+        <parameter name="plan" value="机器总动员 [2017-07-18 ~ 2017-08-17]"/>
+        <parameter name="ReviewName" value="zhangsan"/>
+        <parameter name="Need" value="我要美女机器人"/>
+        <parameter name="Time" value="5"/>
+        <parameter name="needValue" value="男人都想要美女机器人这是基本需求"/>
+        <parameter name="acceptanceStandard" value="和刘亦菲一样"/>
+        <parameter name="Person" value="zz"/>
+
+        <classes>
+            <class name="ZanTaoSubmitNeed">
+            <methods>
+                <include name="login"/>
+                <include name="SubmitNeed"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

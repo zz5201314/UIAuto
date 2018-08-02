@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="测试页面"><!-- 测试页面 -->
+    <locator name="提交BUG框" type="css" value="a[href='/zentao/bug-create-3-0-moduleID=0.html']" timeout="5">submitBug</locator>
+</page>
+
